@@ -1,21 +1,11 @@
-# shadcn/ui monorepo template
+# Clara
+> The operating system for teams that build software.
 
-This is a Vite monorepo template with shadcn/ui.
+## Tech Stack
+- **Backend:** NestJS
+- **Frontend:** React + Vite
+- **Database:** PostgreSQL
+- **Cache:** Redis
+- **Tooling:** Docker, pnpm (monorepo)
 
-## Adding components
-
-To add components to your app, run the following command at the root of your `web` app:
-
-```bash
-pnpm dlx shadcn@latest add button -c apps/web
-```
-
-This will place the ui components in the `packages/ui/src/components` directory.
-
-## Using components
-
-To use the components in your app, import them from the `ui` package.
-
-```tsx
-import { Button } from "@workspace/ui/components/button";
-```
+Copyright (c) 2026 Naufal Ahmad Junaedi. All rights reserved
